@@ -75,7 +75,7 @@ body:
       label: Related links
       description: Link related AIPs, PRs, discussions, releases, commits, governance votes, or documentation.
       placeholder: |
-        - AAOIP:
+        - AIP:
         - PR:
         - Discussion:
         - Release:
