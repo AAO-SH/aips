@@ -1,1 +1,32 @@
+title: "[Security / Proof] "
+labels: ["status: gathering-feedback", "scope: security", "needs: security-review", "risk: high"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for proof of execution, consensus, slashing, reputation, Sybil resistance, validation, and auditability.
 
+  - type: textarea
+    id: threat-model
+    attributes:
+      label: Threat model
+      description: What attacker, failure, or malicious behavior are we considering?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-defense
+    attributes:
+      label: Proposed defense
+      description: How should protocol prevent, detect, or punish this behavior?
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification-model
+    attributes:
+      label: Verification model
+      description: How can execution, evidence, or correctness be verified?
+    validations:
+      required: true
+      
