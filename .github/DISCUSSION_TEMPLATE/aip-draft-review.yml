@@ -1,1 +1,32 @@
+title: "[AIP Draft Review] "
+labels: ["status: gathering-feedback", "needs: design-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for AIP drafts that are almost ready for a formal Pull Request.
 
+  - type: input
+    id: draft-link
+    attributes:
+      label: Draft link
+      description: Link to the draft, branch, gist, or document.
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What does this draft propose?
+    validations:
+      required: true
+
+  - type: textarea
+    id: review-needed
+    attributes:
+      label: Review needed
+      description: What kind of feedback do you need?
+    validations:
+      required: true
+      
