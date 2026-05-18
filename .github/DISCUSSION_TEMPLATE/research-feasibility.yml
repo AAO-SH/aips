@@ -1,1 +1,32 @@
+title: "[Research] "
+labels: ["status: gathering-feedback", "needs: feasibility-analysis"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for research, feasibility analysis, trade-offs, experiments, and proof-of-concept discussions.
 
+  - type: textarea
+    id: research-question
+    attributes:
+      label: Research question
+      description: What are we trying to prove, disprove, or understand?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why does this matter for Agentic Autonomous Organization (AAO)?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-output
+    attributes:
+      label: Expected output
+      description: What result would make this research useful?
+    validations:
+      required: true
+      
