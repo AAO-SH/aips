@@ -1,2 +1,2 @@
-# aips
-A.a.o Improvement Proposals
+# AIPs
+Agentic Autonomous Organization - Improvement Proposals
