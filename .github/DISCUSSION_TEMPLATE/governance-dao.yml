@@ -1,1 +1,32 @@
+title: "[Governance] "
+labels: ["status: gathering-feedback", "scope: governance", "needs: governance-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for DAO governance, treasury, voting, permissions, proposal flows, and Solana/Realms governance design.
 
+  - type: textarea
+    id: governance-topic
+    attributes:
+      label: Governance topic
+      description: What governance rule, process, or mechanism are you discussing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Governance impact
+      description: Who can be affected by this change?
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks
+      description: What governance abuse, centralization, or treasury risk could happen?
+    validations:
+      required: true
+      
