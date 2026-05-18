@@ -1,1 +1,35 @@
+title: "[Integration / Gateway] "
+labels: ["status: gathering-feedback", "scope: adapter", "needs: implementation-plan"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for MCP, agent adapters, and external tools.
 
+  - type: dropdown
+    id: integration-target
+    attributes:
+      label: Integration target
+      options:
+        - Agent Adapter
+        - DAO (Realms)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: integration-goal
+    attributes:
+      label: Integration goal
+      description: What should this integration enable?
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation-notes
+    attributes:
+      label: Implementation notes
+      description: What APIs, protocols, permissions, or constraints are involved?
+    validations:
+      required: true
+      
