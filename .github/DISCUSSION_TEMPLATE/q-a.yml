@@ -1,1 +1,24 @@
+title: "[Question] "
+labels: ["status: needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for questions about AAO (protocol), AIP (proposals), governance, agent runtime, implementation, or contribution process.
 
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What do you need help understanding?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add links, examples, assumptions, or what you already tried.
+    validations:
+      required: false
+      
