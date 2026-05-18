@@ -1,1 +1,84 @@
+title: "[Announcement] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this category for official maintainer announcements, process updates, releases, governance notices, and important project communications.
 
+        Announcements should be clear, factual, and actionable.
+
+  - type: dropdown
+    id: announcement-type
+    attributes:
+      label: Announcement type
+      options:
+        - Project update
+        - AIP process update
+        - Release
+        - Governance notice
+        - Security notice
+        - Breaking change
+        - Deprecation notice
+        - Maintenance notice
+        - Community notice
+    validations:
+      required: true
+
+  - type: input
+    id: effective-date
+    attributes:
+      label: Effective date
+      description: When does this announcement take effect?
+      placeholder: "YYYY-MM-DD or Immediately"
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Short summary of the announcement.
+      placeholder: "What changed, what was decided, or what should the community know?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Full announcement details.
+      placeholder: "Explain the context, decision, change, release, or notice."
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who or what is affected?
+      placeholder: "Maintainers, contributors, node operators, DAO voters, agents, integrations, docs, etc."
+    validations:
+      required: false
+
+  - type: textarea
+    id: required-actions
+    attributes:
+      label: Required actions
+      description: What should readers do, if anything?
+      placeholder: "No action required / Update configuration / Review AIP / Migrate before date X / etc."
+    validations:
+      required: false
+
+  - type: textarea
+    id: related-links
+    attributes:
+      label: Related links
+      description: Link related AIPs, PRs, discussions, releases, commits, governance votes, or documentation.
+      placeholder: |
+        - AAOIP:
+        - PR:
+        - Discussion:
+        - Release:
+    validations:
+      required: false
+      
